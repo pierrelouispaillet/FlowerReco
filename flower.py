@@ -2,7 +2,7 @@ import cv2
 import tensorflow as tf
 
 # Load the trained TensorFlow model
-model = tf.keras.models.load_model('flower_classifier.h5')
+model = tf.keras.models.load_model('C:\\Users\\Hugol\\VisualStudioCode\\ECE\\inge_4\\AI\\projet\\FlowerReco\\test_hugo\\flower_classifier.h5')
 
 # Initialize the webcam using OpenCV
 cap = cv2.VideoCapture(0)
